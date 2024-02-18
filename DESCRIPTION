@@ -1,0 +1,19 @@
+Package: statistics
+Title: data manipulation
+Version: 0.0.0.9000
+Authors@R: 
+    person("Sebastian", "Metz", , "seba.metz91@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The package load baseline, inpatient main and inpatient diag for manipulation.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    dplyr,
+    readr,
+    stringr,
+    tibble
